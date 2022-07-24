@@ -1,0 +1,24 @@
+.btn-primary{
+    font-family: Montserrat;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color:#CC397B;
+    color: #ffff;
+    border-color:#CC397B;
+    padding: 12px 95px 12px 95px;
+    border-radius: 10px;
+}
+
+.btn-primary:hover{
+    background-color: #1E095A;
+    border-color: #1E095A;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-primary:focus {
+    color: #fff;
+    background-color: #9E2159;
+    border-color:#9E2159;;
+    box-shadow: none;
+}

@@ -1,0 +1,33 @@
+:root{
+    --clr-neon: hsl(288 100% 54%);
+}
+/*color:var(--clr-neon);*/
+
+.bg-custom{
+    background-color: transparent;
+}
+
+.navbar-dark-custom{
+    font-family: Montserrat!important;
+}
+
+.nav-link{
+    font-family: SourceSans;
+    color: #E1E1E1;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color:#C5C5C5;
+    transition: 0.3s;
+}
+
+.active::after {
+    content:'';
+    background: var(--clr-neon);
+    box-shadow: 0 0 .4em 0 var(--clr-neon);
+    display: block;
+    width: 60px;
+    height: 3px;
+
+}   

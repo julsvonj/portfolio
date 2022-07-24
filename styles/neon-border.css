@@ -1,0 +1,11 @@
+:root{
+    --clr-neon: hsl(288 100% 54%);
+}
+
+.neon-border{
+    color: var(--clr-neon);
+    border: currentColor 0.125em solid;
+    border-radius: 0.25em;
+    box-shadow: 0 0 .5em 0 var(--clr-neon);
+
+}
